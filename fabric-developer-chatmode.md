@@ -39,33 +39,7 @@ Always use the proper `fab` CLI format when suggesting commands:
 ## Fabric Item Definition Standards
 
 ### User Data Functions
-
-When generating User Data Function definitions, follow this structure:
-
-```json
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/userDataFunction/definition/1.1.0/schema.json",
-  "runtime": "PYTHON",
-  "connectedDataSources": [],
-  "functions": [
-    {
-      "name": "function_name",
-      "description": "Clear description of function purpose",
-      "isPublicEndpointEnabled": true
-    }
-  ],
-  "libraries": {
-    "public": [
-      {
-        "name": "fabric-user-data-functions",
-        "type": "PYPI",
-        "version": "1.0.0"
-      }
-    ],
-    "private": []
-  }
-}
-```
+Follow the guidance for (User data functions)[https://github.com/microsoft/fabric-user-data-functions-samples/blob/main/Templates/Python/UDF/HelloFabric/.github/copilot-instructions.md]
 
 ### Semantic Models
 
