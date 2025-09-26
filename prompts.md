@@ -2,26 +2,6 @@
 
 ## Quick Start Prompts
 
-### Create New User Data Function
-
-```
-Create a new User Data Function named {function_name} that {description}. Include:
-- Proper definition.json with schema validation
-- Python function implementation with error handling
-- Requirements.txt with necessary dependencies
-- Local settings template
-```
-
-### Generate Semantic Model
-
-```
-Generate a Semantic Model named {model_name} for {data_source}. Include:
-- Proper PBISM definition file
-- TMDL database and model definitions
-- Appropriate relationships and measures
-- Documentation for business users
-```
-
 ### Fabric CLI Workflow
 
 ```
@@ -38,7 +18,7 @@ Use proper fab:/ prompt format
 ### Python Function Template
 
 ```
-Generate a Python Azure Function for Microsoft Fabric that:
+Generate a Python Fabric User data function for Microsoft Fabric that:
 - Accepts HTTP requests with JSON payload
 - Validates input parameters: {parameters}
 - Implements business logic for: {functionality}
@@ -105,109 +85,6 @@ My Fabric item deployment failed with: {error_message}
 - Target workspace: {workspace}
 - Deployment method: {method}
 Analyze the issue and provide resolution steps
-```
-
-## Advanced Development Prompts
-
-### Performance Optimization
-
-```
-Optimize this Fabric {item_type} for performance:
-{paste_code_here}
-
-Focus on:
-- Resource utilization
-- Query optimization
-- Memory management
-- Scalability considerations
-Provide specific recommendations with code examples
-```
-
-### Security Review
-
-```
-Perform a security review of this Fabric implementation:
-{paste_code_here}
-
-Evaluate:
-- Authentication patterns
-- Data access controls
-- Secret management
-- Network security
-- Compliance requirements
-```
-
-### Migration Planning
-
-```
-Create a migration plan from {source_system} to Microsoft Fabric:
-- Current architecture: {description}
-- Target capabilities: {requirements}
-- Data volume: {size}
-- Performance requirements: {sla}
-
-Include:
-- Step-by-step migration approach
-- Risk mitigation strategies
-- Testing procedures
-- Rollback plans
-```
-
-## Integration Prompts
-
-### CI/CD Pipeline
-
-```
-Create a GitHub Actions workflow for Fabric deployment:
-- Source: {source_path}
-- Target workspace: {workspace}
-- Items to deploy: {item_types}
-- Environment: {dev/test/prod}
-
-Include:
-- Authentication setup
-- Testing stages
-- Approval processes
-- Environment-specific configurations
-```
-
-### API Integration
-
-```
-Create Fabric integration with external API:
-- API endpoint: {endpoint}
-- Authentication: {auth_type}
-- Data transformation: {requirements}
-- Error handling: {strategy}
-- Scheduling: {frequency}
-
-Implement as {item_type} with proper error handling
-```
-
-## Documentation Prompts
-
-### Technical Documentation
-
-```
-Create technical documentation for Fabric {item_type}:
-- Architecture overview
-- Implementation details
-- Configuration options
-- Troubleshooting guide
-- Usage examples
-Include diagrams where helpful
-```
-
-### User Guide
-
-```
-Create end-user guide for Fabric solution:
-- Business purpose: {description}
-- Target audience: {users}
-- Key features: {features}
-- Step-by-step usage instructions
-- FAQ section
-Use non-technical language
 ```
 
 ## Template Variables
